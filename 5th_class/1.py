@@ -115,9 +115,9 @@
 #         continue
 # print(out)
 
-#8 wap to get the following output 
-#s1 = '111001010'
-#s2 = '110001000'
+# 8 wap to get the following output 
+# s1 = '111001010'
+# s2 = '110001000'
 #out = 2
 # s1 = "111001010"
 # s2 = "110001000"
@@ -146,9 +146,9 @@
 #     for j in range(1,6):
 #         print(i,j)
 
-#9 wap to get the following output
-#s = 'mission impossible'
-#output = {'mission': 7, 'impossible': 10}
+# 9 wap to get the following output
+# s = 'mission impossible'
+# output = {'mission': 7, 'impossible': 10}
 # s = 'mission impossible'.split()
 # out = {}
 # for word in s:
@@ -158,9 +158,9 @@
 #     out[word] = length
 # print(out)
         
-#10 wap to get the following output 
-#s = 'power star'
-#out = {'power':2,'star':1}
+# 10 wap to get the following output 
+# s = 'power star'
+# out = {'power':2,'star':1}
 # s = 'power star'.split()
 # out = {}
 # for word in s:
@@ -187,7 +187,7 @@
 # else:
 #     print('not strong')
 
-#12 wap to get the following output
+# 12 wap to get the following output
 # s = 'bacbcaabbccc'
 # out = 'b4c5a3'
 # for i in s:
@@ -204,7 +204,7 @@
 #         out = out + i + str(count)
 # print(out)    
     
-#13 wap to get the following output
+# 13 wap to get the following output
 # s = {10:'star',20:'bye',30:'oo',40:'apple'}
 # out = {10:'a',20:'e',30:'oo',40:'ae'}
 # out = {}

@@ -117,10 +117,10 @@ con = {'yash':400, 'raj':300}
 
 #SLICING
 t = 'hello world'
-# print(s[0:4:1])
+# print(t[0:4:1])
 # print(s[10:5:-1])
 # print(s[4:0:-1])
-# print(s[3:7:1])
+print(t[3:7:1])
 # s = 'we love india'
 # print(s[-5::1])
 # print(t[-11:-6:1])

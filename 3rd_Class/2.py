@@ -173,11 +173,11 @@
 #     print("No disocunt")
 
 
-amount = int(input('Enter amount: '))
-balance = int(input('Enter balance: '))
+# amount = int(input('Enter amount: '))
+# balance = int(input('Enter balance: '))
 
-if (amount // 100  and amount <= balance-50):
-    print('Withdrawal successful')
-else:
-    print('Transaction declined')
+# if (amount // 100  and amount <= balance-50):
+#     print('Withdrawal successful')
+# else:
+#     print('Transaction declined')
     

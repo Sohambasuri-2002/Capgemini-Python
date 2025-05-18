@@ -1,24 +1,24 @@
-#wap to print 'KIIT is worst' for 100 times
+# wap to print 'KIIT is worst' for 100 times
 # i=0
 # while i<10:
 #     print('KIIT is worst ')
 #     i=i+1
 
-#wap to print even numbers between 1 to 100
+# wap to print even numbers between 1 to 100
 # i=1
 # while i<=10:
 #     if (i % 2 == 0):
 #         print(i,end=' ')
 #     i+=1
 
-#wap to print multiplication tables
+# wap to print multiplication tables
 # s = int(input('Enter value: '))
 # i = 1
 # while(i<=10):
 #     print(s,'*',i,'=',s*i)
 #     i+=1
 
-#wap to find sum of n natural numbers
+# wap to find sum of n natural numbers
 # s = int(input('Enter value: '))
 # i=1
 # sum = 0
@@ -27,7 +27,9 @@
 #     i+=1
 # print(sum)
 
-#wap to find factorial for a given number
+
+
+# wap to find factorial for a given number
 # n = int(input('Enter value: '))
 # fact = 1
 # i=1
@@ -36,8 +38,8 @@
 #     i+=1
 # print(fact)
 
-#wap to get following output
-#s = 'we are good and bad'
+# wap to get following output
+# s = 'we are good and bad'
 # s = input('Enter string : ')
 # i=0
 # length = len(s)
@@ -49,7 +51,7 @@
 #     i+=1
 
 
-#wap to extract lowercase characters from the given str 
+# wap to extract lowercase characters from the given str 
 # s = input('Enter string : ')
 # i=0
 # out = ''
@@ -59,7 +61,7 @@
 #     i+=1
 # print(out)
 
-#wap to extract special charcetrs from a string
+# wap to extract special charcetrs from a string
 # s = input('Enter string : ')
 # i=0
 # out = ''
@@ -69,7 +71,7 @@
 #     i+=1
 # print(out)
 
-#wap to extract only integrs from a given list
+# wap to extract only integrs from a given list
 # l = [10,345,5.6,True,'KIIT',[1,2,3,4,5]]
 # l = eval(input('Enter : '))
 # length = len(l)
@@ -81,8 +83,10 @@
 #     i+=1
 # print(out)
 
+
+
 # #wap to get following output
-# #l = [10,20,True,'hello','eye','level','malayalam']
+# l = [10,20,True,'hello','eye','level','malayalam']
 # l = eval(input('Enter : '))
 # out = []
 # i=0
@@ -93,9 +97,9 @@
 #     i+=1
 # print(out)
 
-#wap to find the sum of individual values of an integer
-#num = 123
-#sum = 1+2+3 => 6
+# wap to find the sum of individual values of an integer
+# num = 123
+# sum = 1+2+3 => 6
 # num = int(input('Enter number: '))
 # sum = 0
 # while(num !=0):
@@ -190,33 +194,33 @@
 #     out[i] = i[::-1]
 # print(out)
 
-#wap to get the following output 
+# wap to get the following output 
 # l = ['jiocinema.com','flipkart.com','file.py','file.java']
-#out = ['com','in','py','java']
+# out = ['com','in','py','java']
 # l = eval(input('Enter list: '))
 # out = []
 # for i in l:
 #     out.append(i.split('.')[1])
 # print(out)
 
-#wap to get the following output 
+# wap to get the following output 
 # l = ['jiocinema.com','flipkart.com','file.py','file.java']
 # out = {'com':['jiocinema','flipkart'],'py':[file],'java':['file']}
-# l = ['jiocinema.com','flipkart.com','file.py','file.java']
-# out = {}
-# for name in l:
-#     s = name.split('.')
-#     key = s[1]
-#     val = s[0]
-#     if key in out:
-#         out[key].append(val)
-#     else:
-#         out[key] = [val]
-# print(out)
+l = ['jiocinema.com','flipkart.com','file.py','file.java']
+out = {}
+for name in l:
+    s = name.split('.')
+    key = s[1]
+    val = s[0]
+    if key in out:
+        out[key].append(val)
+    else:
+        out[key] = [val]
+print(out)
 
-#wap to get the following output
-#l = ['hai',34,3.4,'hello','bytebye']
-#out = ['hai':'hi','hello':'ho','bytebye':'be']
+# wap to get the following output
+# l = ['hai',34,3.4,'hello','bytebye']
+# out = ['hai':'hi','hello':'ho','bytebye':'be']
 # l = ['hai',34,3.4,'hello','bytebye']
 # out = {}
 # for i in l:
@@ -224,9 +228,9 @@
 #         out[i] = i[0] + i[-1]
 # print(out)
 
-#wap to get the following 
+# wap to get the following 
 # s = 'HELLO'
-#out = {0:'H',1:'E',2:'L',3:'L',4:'O'}
+# out = {0:'H',1:'E',2:'L',3:'L',4:'O'}
 # s = input('Enter string : ')
 # out = {}
 # for i in range(len(s)):
@@ -237,11 +241,11 @@
 #     out[index] = char
 # print(out)
 
-#wap to get the following output
-s = 'always keep smiling'
-#out = 'syawla peek gnilims'
+# wap to get the following output
+# s = 'always keep smiling'
+# out = 'syawla peek gnilims'
 # out = ''
-d = s.split(' ')
+# d = s.split(' ')
 # for i in d:
 #         out = out + i[::-1] + ' '
 #APRROACH 2 : strip() -> removes starting and ending spaces in a string
