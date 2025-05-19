@@ -242,10 +242,35 @@
 #         out[i] = i[0] + i[-1]
 # print(out)
 
-s = 'HELLO'
-out = {}
-count = 0
+# s = 'HELLO'
+# out = {}
+# count = 0
+# for i in s:
+#     out[count] = i
+#     count += 1
+# print(out)
+
+# num = 6
+# for i in range(2,num):
+#     if (num % 1 == 0 and num % i == 0):
+#         print('Not ')
+#         break
+# else:
+#     print('prime')
+
+# s1 = '111001010'
+# s2 = '110001000'
+# count = 0
+# if len(s1) == len(s2):
+#     for i in range(0,len(s1)):
+#         if (s1[i] != s2[i]):
+#             count += 1
+# print(count)
+
+s = 'bacbcaabbccc'
+out = ''
 for i in s:
-    out[count] = i
-    count += 1
+    if i not in out:
+        out = out + i + str(s.count(i))
+        
 print(out)
