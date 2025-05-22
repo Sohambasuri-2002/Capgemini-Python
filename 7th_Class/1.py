@@ -1,6 +1,6 @@
 #1 FUNCTIONS WITHOUT ARGUMENTS AND RETURN VALUES
 
-#WAP to get the following output
+# WAP to get the following output
 # s = '1001001010'
 # out = '0110110101'
 # def replace():
@@ -16,8 +16,8 @@
 #     print(out)
 # replace()
 
-#wap to extract only positive integers in a given list
-#l =[10,20,-890,True,'hello',[1,2,3,4]]
+# wap to extract only positive integers in a given list
+# l =[10,20,-890,True,'hello',[1,2,3,4]]
 # out = [10,20]
 # def extract():
 #     l = [10,20,-890,True,'hello',[1,2,3,4]]
@@ -38,7 +38,7 @@
 #     SB
 #     ------------
 # fname(val1,val2,...valn) -> function calling
-#wap to get the following output
+# wap to get the following output
 # s = 'python'
 # out = 'ptoyhn'
 # def concat(l):
@@ -64,7 +64,7 @@
 #     print(even+odd)
 # concat(input('Enter string: '))
 
-#wap to get the following output
+# wap to get the following output
 # s = '1234567'
 # out = '2461357'
 # def concat(l):
@@ -157,7 +157,7 @@
 # out = nonde(l)
 # print(out)
 
-#wap to check whether a number is spy number or not
+# wap to check whether a number is spy number or not
 # num = 123
 # sum = 1+2+3 = 6
 # mul = 1*2*3 = 6

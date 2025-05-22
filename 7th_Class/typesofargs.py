@@ -59,7 +59,7 @@
 # s = input('Enter a string: ')
 # print(extract(s))
 
-#wap to get the following output
+# wap to get the following output
 # s = '1001010101&*^'
 # out = '0110101010&*^'
 # def replacing(s,out='',i=0):

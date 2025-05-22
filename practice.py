@@ -267,10 +267,10 @@
 #             count += 1
 # print(count)
 
-s = 'bacbcaabbccc'
-out = ''
-for i in s:
-    if i not in out:
-        out = out + i + str(s.count(i))
+# s = 'bacbcaabbccc'
+# out = ''
+# for i in s:
+#     if i not in out:
+#         out = out + i + str(s.count(i))
         
-print(out)
+# print(out)
