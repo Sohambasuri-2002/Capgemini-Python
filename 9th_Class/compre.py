@@ -1,4 +1,3 @@
-
 # COMPREHENSIONS  -> It is a process of creating new mutable collection by using single line of instruction.
 # --> It is possible only for mutable collections (list , set , dict) because we can modify the existing data
 # Types are :-
